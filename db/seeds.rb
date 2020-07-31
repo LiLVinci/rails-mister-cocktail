@@ -7,12 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-# Ingredient.create(name: "lemon")
-# Ingredient.create(name: "ice")
-# Ingredient.create(name: "mint leaves")
-# Ingredient.create(name: "Jack Daniels")
-# Ingredient.create(name: "Gin")
-# Ingredient.create(name: "vodka")
-# Ingredient.create(name: "Red Bull")
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "Jack Daniels")
+Ingredient.create(name: "Gin")
+Ingredient.create(name: "vodka")
+Ingredient.create(name: "Red Bull")
 
 # Cocktail.create(name: "Test")
