@@ -21,7 +21,7 @@ class DosesController < ApplicationController
     @dose.destroy
 
     # no need for app/views/doses/destroy.html.erb
-    redirect_to cocktails_path
+    redirect_to cocktail_path(@dose.cocktail)
   end
   private
 

@@ -1,7 +1,7 @@
 <h1> <%= @cocktail.name %></h1>
 <ul>
   <% @cocktail.doses.each do |doses|%>
-    <li><%= doses.description %> - <%= @cocktail.ingredients[doses.ingredient.id].name %></li>
+    <li><%= doses.description %> - <%= doses.ingredient.name %> <%= link_to "🚮", dose_path(doses), method: :delete %></li>
   <% end%>
 </ul>
 

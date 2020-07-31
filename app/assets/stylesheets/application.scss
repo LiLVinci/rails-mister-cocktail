@@ -11,3 +11,66 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  margin-top: 100px;
+  color: white;
+  background-attachment: fixed;
+  background-image: url("https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+.main {
+  margin: 40px 100px;
+}
+
+.card {
+  margin: 10px;
+  height: 200px;
+  background-size: cover;
+  background-image: url("https://st.depositphotos.com/1081688/1270/i/450/depositphotos_12702419-stock-photo-empty-martini-glass.jpg");
+  border-radius: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  text-decoration: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  border-radius: 50px;
+}
+
+.link_to_new {
+  margin: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/1459338/pexels-photo-1459338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.logo {
+  width: 175px;
+  padding: 0;
+
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
